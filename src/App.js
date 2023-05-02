@@ -1,14 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-import MainHeader from './component/MainHeader/MainHeader';
 import Header from './component/Header/Header';
+import Main from './component/Main/Main';
+import BodyLeft from './component/BodyLeft/BodyLeft';
+import BodyRight from './component/BodyRight/BodyRight';
+
 
 
 function App() {
   return (
     <div className="App">
-      <MainHeader/>
-            <Header/>
+     
+     <Header/>
+     <Main/>
+     <BodyLeft/>
+     <BodyRight/>
 
     </div>
   );
